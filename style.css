@@ -1,0 +1,38 @@
+section {
+    background-color: #c2e0c2;
+}
+.container {
+    margin-bottom: 70px;
+}
+.navbar .nav-link {
+    padding: 5px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 10px;
+    font-weight: 700;
+}
+#header .navbar .active {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+#header button {
+    background-color: #21b573;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 25px;
+}
+h4 {
+    color: #fd511a;
+}
+span  {
+    font-weight: 700;
+    font-size: 56px;
+}
+.black {
+    color: #000;
+}
+.green {
+    color: #21b573;
+}
