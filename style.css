@@ -1,8 +1,11 @@
-section {
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#header {
     background-color: #c2e0c2;
 }
 .container {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 .navbar .nav-link {
     padding: 5px 20px;
@@ -17,13 +20,16 @@ section {
     padding: 5px 10px;
     border-radius: 25px;
 }
+.container .col-md-6 {
+    padding: 20px;
+}
 #header button {
     background-color: #21b573;
     color: white;
     padding: 7px 30px;
     border-radius: 25px;
 }
-h4 {
+#header h4 {
     color: #fd511a;
 }
 span  {
@@ -35,4 +41,71 @@ span  {
 }
 .green {
     color: #21b573;
+}
+.icon {
+    width: 250px;
+    height: 250px;
+    background-color: #f8fffb;
+    margin: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 1px 10px 2px 10px;
+    box-shadow: 1px 1px 20px gray;
+}
+#icon .active {
+    background-color: white;
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 1px 10px 2px 10px;
+}
+.col-md-3 img:first-child {
+    width: 43%;
+}
+#icon h1,h3, #course h1,h3 {
+    margin: 20px 0px;
+    font-weight: 600;
+    color: #413960;
+    text-align: center;
+}
+#course button {
+    background-color: #21b573;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 25px;
+}
+.card {
+    box-shadow: 2px 2px 30px gray;
+    border-radius: 10px;
+}
+.card-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #413960;
+}
+#course .card-footer img {
+    width: 15%;
+}
+.test {
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.man {
+    width: 30%;
+}
+#link{
+    background-color: black;
+    color: white;
+}
+h4 {
+    margin-top: 20px;
+}
+#link a{
+    font-size: 15px;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    color: white;
 }
